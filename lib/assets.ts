@@ -2,8 +2,8 @@ export const asset = (filename: string) =>
   `/assets/${filename.split("/").map(encodeURIComponent).join("/")}`;
 
 export const FILES = {
-  onePageResume: "/screenshots/Rex_Navarro_Jr_OnePage_Resume_v3.docx",
-  cv: "/screenshots/Rex_Navarro_Jr_CV_v5.docx",
+  onePageResume: "/screenshots/Rex_Navarro_Jr_OnePage_Resume_v3.pdf",
+  cv: "/screenshots/Rex_Navarro_Jr_CV_v6.pdf",
   capstonePdf: asset("1816-RENTAL-LEGIT.pdf"),
   capstoneNotes: asset("BUSINESS ANALYSTS NOTES.docx"),
   sqlScript: asset("cleaning_data.sql"),
